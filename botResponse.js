@@ -7,6 +7,13 @@ manager.import(load_data);
 
 const getBotResponse = async (user_message) => {
   const bot_response = await manager.process(user_message);
-  return bot_response;
+  const main_response = {
+    message: bot_response?.answer,
+    score: bot_response?.score,
+    intent: bot_response?.intent,
+    language: bot_response?.language,
+    utterance: bot_response?.utterance,
+  };
+  return main_response;
 };
 module.exports = { getBotResponse };

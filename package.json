@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node train.js && node input.js",
-    "train": "node train.js"
+    "train": "node train.js",
+    "build": "node server.js"
   },
   "author": "",
   "license": "ISC",
