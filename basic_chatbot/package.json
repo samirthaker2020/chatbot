@@ -1,0 +1,16 @@
+{
+  "name": "chatbot_app",
+  "version": "1.0.0",
+  "description": "this is a basic chatbot using javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node train.js && node input.js",
+    "train": "node train.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.27.0",
+    "node-nlp": "^4.27.0"
+  }
+}
