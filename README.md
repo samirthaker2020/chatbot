@@ -23,4 +23,5 @@ For creating API's :  Express.js
 }
 7. check the response
    
-![Screenshot 2023-09-10 at 5 57 22 PM](https://github.com/samirthaker2020/chatbot/assets/46947688/0cd0dea6-9a9b-450c-a57a-48b98253c1ee)
+
+![Screenshot 2023-09-10 at 6 16 58 PM](https://github.com/samirthaker2020/chatbot/assets/46947688/f90a8067-62fe-4c8f-a6da-24712861ac4a)
